@@ -1,0 +1,1 @@
+select cast(sum(lat_n) as decimal (7,2)) as lat, round(sum(long_w), 2) as lon from station;
