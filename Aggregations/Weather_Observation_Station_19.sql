@@ -1,0 +1,1 @@
+select cast( sqrt(power(abs(max(long_w) - min(long_w)), 2) + power(abs(min(lat_n) - max(lat_n)), 2))  as decimal(7,4) ) from station;
